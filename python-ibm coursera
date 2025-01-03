@@ -1,5 +1,38 @@
 SEVERAL IMP LINKS
 
-https://www.coursera.org/learn/python-for-applied-data-science-ai/ungradedWidget/bp8tQ/cheat-sheet-python-basics //BASICS OF PYTHON
-https://www.coursera.org/learn/python-project-for-ai-application-development/ungradedWidget/Eqtgm/reading-python-with-flask-for-large-scale-projects //FLASK READING
-https://www.coursera.org/learn/python-project-for-ai-application-development/supplement/nBXFA/module-1-summary-python-coding-practices-and-packaging-concepts //PACKAGES+LIFECYCLE(APP)
+1.https://www.coursera.org/learn/python-for-applied-data-science-ai/ungradedWidget/bp8tQ/cheat-sheet-python-basics //BASICS OF PYTHON
+2.https://www.coursera.org/learn/python-project-for-ai-application-development/ungradedWidget/Eqtgm/reading-python-with-flask-for-large-scale-projects //FLASK READING
+3.https://www.coursera.org/learn/python-project-for-ai-application-development/supplement/nBXFA/module-1-summary-python-coding-practices-and-packaging-concepts //PACKAGES+LIFECYCLE(APP)
+4.https://www.coursera.org/learn/python-project-for-ai-application-development/lecture/zUc34/introduction-to-flask //EVERYTHING ABOUT FLASK--INTRO
+5.https://www.coursera.org/learn/python-project-for-ai-application-development/lecture/Zg8Hi/flask-basic-applications-and-routes //STRUCTURE OF FLASK APP AND DESCRIPTION
+
+to note:wrt (5)
+1.create python and flask env in idle
+pip install "Flask==2.2.2"
+
+2.create server.py file and code main structure as follows:
+# Import the Flask class from the flask module
+from flask import Flask
+
+# Create an instance of the Flask class, passing in the name of the current module
+app = Flask(__name__)
+
+# Define a route for the root URL ("/")
+@app.route("/")
+def hello_world():
+    # Function that handles requests to the root URL
+    return "Hello, World!"
+
+3.returning json--Use the jsonify() method on a string
+# Import the Flask class from the flask module
+from flask import Flask
+
+# Create an instance of the Flask class, passing in the name of the current module
+app = Flask(__name__)
+
+# Define a route for the root URL ("/")
+@app.route("/")
+def home():
+    # Function that handles requests to the root URL
+    # Create a dictionary to return as a response
+    return {"message": "Learning Flask"}
