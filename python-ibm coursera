@@ -9,6 +9,8 @@ SEVERAL IMP LINKS
 5.https://www.coursera.org/learn/python-project-for-ai-application-development/lecture/Zg8Hi/flask-basic-applications-and-routes //STRUCTURE OF FLASK APP AND DESCRIPTION
 6.https://www.coursera.org/learn/python-project-for-ai-application-development/supplement/t7eax/module-2-lesson-summary-web-app-deployment-using-flask //EVERYTHING ABOUT DEPLOYING IN FLASK
 7.https://www.coursera.org/learn/python-project-for-ai-application-development/ungradedWidget/mYURz/module-2-cheatsheet-web-app-deployment-using-flask //DEPLOYING WITH FLASK AND ERROR HANDLING
+8.https://www.coursera.org/learn/python-project-for-ai-application-development/supplement/Z40xl/module-3-summary-creating-ai-application-and-deploy-using-flask //CREATION OF AI-APP WITH FLASK
+
 
 to note:wrt (5)
 1.create python and flask env in idle
