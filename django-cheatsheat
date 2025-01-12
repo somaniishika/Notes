@@ -1,4 +1,8 @@
 # Django Cheat Sheet
+Model-View-Template (MVT) is a software design pattern used in the Django framework to organize the codebase and workflow of a web application: 
+Model-Manages data and interacts with the database. It's also known as the data layer. 
+View-Handles the application's logic and functionality. It's also known as the logic layer. 
+Template-Handles the layout and structure of the user-facing application. It's also known as the presentation layer.
 
 ```bash
 # Install virtualenv
