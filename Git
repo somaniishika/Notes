@@ -1,0 +1,17 @@
+1.git init
+
+2.git status
+
+3.go to github and create a new repository as needed
+e.g., my-vscode-project
+Copy the repository's URL (e.g., https://github.com/username/my-vscode-project.git).
+
+4.git add -p
+
+5.git commit -m "first commit"
+
+6.git remote add origin https://github.com/username/my-vscode-project.git
+
+7.git remote -v
+
+8.git push -u origin main
